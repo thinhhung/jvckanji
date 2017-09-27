@@ -39,7 +39,7 @@ $words = array_chunk($words, 5);
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Kanji Generater</title>
+	<title>Kanji Generator</title>
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	<meta charset="UTF-8">
@@ -59,7 +59,7 @@ $words = array_chunk($words, 5);
 	<div id="main" class="container">
 		<div class="card">
 			<div class="card-body">
-				<h4 class="card-title">Kanji Generater</h4>
+				<h4 class="card-title">Kanji Generator</h4>
 				<form method="GET">
 					<div class="form-group">
 						<label for="level">Level</label>
