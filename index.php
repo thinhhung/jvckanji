@@ -80,29 +80,10 @@ $words = array_chunk($words, 5);
                             <div class="form-group">
                                 <label>&nbsp;</label>
                                 <div>
-                                    <button type="submit" class="btn btn-primary float-right">Submit</button>
+                                    <button type="submit" class="btn btn-primary">Submit</button>
                                 </div>
                             </div>
                         </div>
-                    </div>
-                </form>
-            </div>
-        </div>
-        <div id="view-options" class="card">
-            <div class="card-body">
-                <form class="form-inline">
-                    <div class="form-check">
-                        <label class="form-check-label">
-                            <input id="show_kanji" name="show_kanji" class="form-check-input" type="checkbox" value="1" checked="checked">
-                            Show Kanji
-                        </label>
-                    </div>
-                    &nbsp;&nbsp;
-                    <div class="form-check">
-                        <label class="form-check-label">
-                            <input id="show_meaning" name="show_kanji" class="form-check-input" type="checkbox" value="1" checked="checked">
-                            Show Meaning
-                        </label>
                     </div>
                 </form>
             </div>
