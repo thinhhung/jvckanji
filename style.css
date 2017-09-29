@@ -1,15 +1,27 @@
-#main {
-    padding: 40px 0;
+#filters {
+    padding: 40px 0 0;
 }
 table {
     text-align: center;
     font-size: 36px;
-    width: 500px;
-    margin: 0 auto;
 }
-#view-options {
-    margin-top: 20px;
+#kanji-list {
+    padding: 20px 0 40px;
 }
-#kanji-table {
-    margin-top: 20px;
+.flashcard {
+    text-align: center;
+    margin: 5px 0;
+}
+.flashcard .card {
+    min-height: 150px;
+    min-width: 120px;
+}
+.flashcard .back {
+    color: #333;
+    background-color: #eee;
+    border-color: #e3e3e3;
+}
+.flashcard .front h4 {
+    font-size: 72px;
+    margin-top: 10px;
 }
