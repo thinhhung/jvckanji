@@ -1,15 +1,14 @@
 #filters {
     padding: 40px 0 0;
 }
-table {
-    text-align: center;
-    font-size: 36px;
-}
 #kanji-list {
     padding: 20px 0 40px;
+    text-align: center;
+}
+#kanji-list table {
+    font-size: 36px;
 }
 .flashcard {
-    text-align: center;
     margin: 5px 0;
 }
 .flashcard .card {
@@ -24,4 +23,5 @@ table {
 .flashcard .front h4 {
     font-size: 72px;
     margin-top: 10px;
+    font-weight: normal;
 }
