@@ -1,0 +1,10 @@
+version: '2'
+
+services:
+    application:
+        container_name: jvckanji_application
+        image: php:7.0-apache
+        volumes:
+            - ./:/var/www/html/
+        ports:
+            - "6969:80"
