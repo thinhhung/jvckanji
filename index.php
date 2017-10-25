@@ -40,7 +40,7 @@ if ($pageFrom > $pageTo) {
 }
 $numberOfWords = get_value('number_of_words');
 $numberOfWords = intval($numberOfWords);
-$numberOfWords = !$numberOfWords || $numberOfWords < 0 || $numberOfWords >= $count ? 40 : $numberOfWords;
+$numberOfWords = !$numberOfWords || $numberOfWords < 0 ? 40 : $numberOfWords;
 
 // JVC Kanji Process
 $wordIndexFrom = ($pageFrom - 1) * 40;
