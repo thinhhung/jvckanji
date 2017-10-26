@@ -25,3 +25,9 @@
     margin-top: 10px;
     font-weight: normal;
 }
+.flashcard .card .close {
+    position: relative;
+    right: -14px;
+    top: -18px;
+    cursor: pointer;
+}
