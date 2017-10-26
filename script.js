@@ -22,4 +22,7 @@ var afterChangeLevel = function () {
 $(function () {
     afterChangeLevel();
     $('#level').change(afterChangeLevel);
+    $('.close').click(function() {
+        $(this).parents('.flashcard-wrapper').hide();
+    });
 });
